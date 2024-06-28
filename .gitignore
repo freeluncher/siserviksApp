@@ -18,3 +18,51 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+.env.testing
+
+# Flask virtual environment
+/flask_model/venv/
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ignored model files
+flask_model/My_model_cancer_3.h5
+flask_model/venv/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd
+
+# Git Large File Storage
+*.bin
+*.exe
+*.dll
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bz2
+*.so
+*.dylib
+
