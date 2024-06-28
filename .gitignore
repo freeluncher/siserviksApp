@@ -22,6 +22,7 @@ yarn-error.log
 
 # Flask virtual environment
 /flask_model/venv/
+/flask_model/
 
 # Python specific
 __pycache__/
